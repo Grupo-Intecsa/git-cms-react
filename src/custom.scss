@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap');
 
 .custom--navbar{
-	padding: 3rem;
-    height: 10vh;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;    
+    height: 6rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+	align-items: center;  
 }
 
 .custom--navbar--title{
@@ -22,7 +23,9 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: url(./assets/bg-git.jpg) center center no-repeat;
+    // background: url(./assets/bg-git.jpg) center center no-repeat;
+	background-image: linear-gradient(-180deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%);
+	
     width: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -32,43 +35,48 @@
 	animation-duration: 10s;
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
-    padding: 15% 0 15% 0;
-    
+    padding: 5% 0 5% 0;   
 }
 
 // titulo del header
-.intro-text {
-    color: azure;
-    text-align: center;
-    padding: 5px;
-}
+// .intro-text {
+//     color: azure;
+//     text-align: center;
+//     padding: 5px;
+// }
 
-.intro-text > h1 {
-	font-size: 4rem;
-	font-weight: 900;
-	text-transform: uppercase;
-	margin-top: 2rem;
-	margin-bottom: 10px; 
-}
+// .intro-text > h1 {
+// 	font-size: 4rem;
+// 	font-weight: 800;
+// 	text-transform: uppercase;
+// 	letter-spacing: 2px;
+// 	// margin-top: 2rem;
+// 	// margin-bottom: 10px; 
+// }
 
 .linear-wipe {
-
-	text-align: center;
-	background: linear-gradient( 105.3deg,  rgb(84, 100, 221) 21.8%, rgba(77,118,221,1) 100.2% );
-	background-size: 200% auto;
-	color: #000;
-	background-clip: text;
-	// text-fill-color: transparent;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 	
-	animation: shine 10s  linear infinite;
-	@keyframes shine {
-	to {
-	background-position: 200% center;
+	font-size: 4rem;
+	font-weight: 800;
+	letter-spacing: 0.3rem;
+	color:rgb(255, 255, 255);
+	text-align: center;
+    line-height: 1;
+    margin: 0 0 var(--geist-space-16x);	
+	text-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+	
+}
+
+@media (min-width: 550px){
+	.linear-wipe{
+		font-size: 8rem;
 	}
 }
+
+.intro-text > p {
+	text-align: center;
 }
+
 
 .btn-custom {
 	font-family: 'Raleway', sans-serif;
@@ -149,4 +157,10 @@
 .btn:hover{
 	background-color: rgba(134, 180, 218, 0.521);
 	color: white;
+}
+
+.logo-nav{
+	height: 5rem;
+	padding: 0 16px 0 16px;
+	
 }
