@@ -1,0 +1,166 @@
+{
+    "Header": {
+
+        "title": "Grupo Intecsa",
+        "paragraph": "TRANSFORMAMOS LA ENERGÍA EN LUZ...Y LA LUZ EN ENERGÍA TAMBIÉN."
+
+    },
+    "About": {
+        "paragraph": "Es un conjunto de empresas especializadas en el campo de la construcción en el área de ingeniería eléctrica. Contamos con el equipo humano y tecnológico capaz de ofrecer a nuestros clientes: atención directa, respuesta inmediata y conocimiento integral de todos los aspectos relacionados con su proyecto.",
+        "Why": [
+            "Lorem ipsum dolor",
+            "Tempor incididunt",
+            "Lorem ipsum dolor",
+            "Incididunt ut labore"
+        ],
+        "Why2": [
+            "Aliquip ex ea commodo",
+            "Lorem ipsum dolor",
+            "Exercitation ullamco",
+            "Lorem ipsum dolor"
+        ]
+    },
+    "Carrousel": {
+        "Obra": [
+            { "img": "img/carrousel/obra/obra.jpeg", "title": "Fachada Liverpool Santa Anita" },
+            { "img": "img/carrousel/obra/obra_02.jpeg", "title": "Liverpool Santa Anita" },
+            { "img": "img/carrousel/obra/obra_02.png", "title": "Liverpool Santa Anita" },
+            { "img": "img/carrousel/obra/obra_03.png", "title": "Liverpool Santa Anita" },
+            { "img": "img/carrousel/obra/obra_04.png", "title": "Liverpool Santa Anita" },
+            { "img": "img/carrousel/obra/obra_05.png", "title": "Liverpool Santa Anita" }
+        ],
+        "Tableros": [
+            { "img": "img/carrousel/tableros/tab.jpeg", "title": "Cuarto eléctrico" },
+            { "img": "img/carrousel/tableros/tab_02.jpeg", "title": "Detalle de conexión" },
+            { "img": "img/carrousel/tableros/tab_03.jpeg", "title": "Tablero eléctrico" },
+            { "img": "img/carrousel/tableros/tab_04.jpeg", "title": "Seccionador eléctrico" },
+            { "img": "img/carrousel/tableros/tab_05.jpeg", "title": "Subestación" }
+        ],
+        "Productos": [
+            { "img": "https://cdn.productimages.abb.com/9IBA255267_720x540.png", "title": "Interruptor Caja Moldeada" },
+            { "img": "https://cdn.productimages.abb.com/9IBA248846_720x540.png", "title": "Interruptor Tmax" },
+            { "img": "https://cdn.productimages.abb.com/9PAA00000033179_720x540.png", "title": "Gabiente Mistral GEMINI" }
+        ],
+        "Trasportes": [
+
+            { "img": "img/carrousel/trans/grua_02.jpeg", "title": "Renta de gruas de elevación" },
+            { "img": "img/carrousel/trans/grua_03.jpeg", "title": "Renta de gruas de elevación" }
+            
+        ],
+        "Canalizacion": [
+            { "img": "img/carrousel/canal/cana_01.jpeg", "title": "Canalización y Soporteria" },
+            { "img": "img/carrousel/canal/cana_02.jpeg", "title": "Canalización y Soporteria" }
+        ]
+    },
+
+    "Footer": {
+        "address": "Raúl Zárate Machuca Cuevitas, 01220 Ciudad de México, CDMX",
+        "link": "https://goo.gl/maps/ahavvUSB89XmrQtSA",
+        "phone": "+52 55  55 70 11 97",
+        "phone2": "+52 55 52 59 24 85",
+        "email": "contacto@grupintecsa.com",
+        "email2": "servicio@grupintecsa.com",
+        "facebook": "fb.com",
+        "youtube": "youtube.com",
+        "maps": "https://goo.gl/maps/ahavvUSB89XmrQtSA"
+    },
+    "EmpresasJson": [
+        {
+            "slug": "ita",
+            "logo": "img/logo/ico_ita.svg",
+            "title": "Instalaciones Técnologicas Aplicadas",
+            "text": "Asesoría profesional y respaldo necesario para cubrir sus necesidades en materia de seguridad y equipo contra incendio, todos nuestros productos están elaborados bajo los más estrictos estándares de calidad, siempre rigiéndonos por las Normas Oficiales Mexicanas y controles de calidad internacionales.",
+            "card": [
+                {
+                    "img": "img/servicios/main/servicio.png",
+                    "title": "Servicios",
+                    "content": "Somos especialistas en proyectos 'turn-key', desarrollando ingeniería eléctrica y de detalle para usted, brindandole asesoria técnica y guiandolo durante el proceso hasta la puesta en marcha."
+                },
+                {
+                    "img": "img/servicios/main/productos.png",
+                    "title": "Productos",
+                    "content": "Contamos con un catálogo de más de 3000 productos del ramo eléctrico que ponemos en línea completamente a su disposición, somos distribuidores directos de fabrica de productos marca ABB, ONKA y Finder."
+                },
+                {
+                    "img": "img/servicios/main/cert.png",
+                    "title": "Certificación",
+                    "content": "Primera empresa Mexicana con certificaciones internacionales por parte de nuestro socio comercial ABB, para producción, ensamble y distribución de sus líneas en baja y media tensión."
+                }
+            ]
+        },
+        {   
+            "slug": "cana",
+            "logo": "img/logo/ico_cana.svg",
+            "title": "Canalización y Soportería",
+            "text": "Nos dedicamos a la transformación de la materia prima, destinándola a diferentes áreas de producción eléctrica. Entre nuestros productos están: Acometidas a ducto, brakets, caja pos, chicote flexible,coples para ducto, derivación T, registros, tapas, zapatas, Pararrayos, etcétera.",
+            
+            "card": [
+                {   
+                    "slug": "eguelSer01",
+                    "img": "img/servicios/main/servicio.png",
+                    "title": "Servicios",
+                    "content": "SERVICIOS CANALIZACION"
+                },
+                {
+                    "img": "img/servicios/main/productos.png",
+                    "title": "Productos",
+                    "content": "PRODUCTOS CANALIZACION"
+                },
+                {
+                    "img": "img/servicios/main/cert.png",
+                    "title": "Certificación",
+                    "content": "CERTIFICACION CANALIZACION"
+                }
+            ]
+            
+        },
+        {   
+            "slug": "eguel",
+            "logo": "img/logo/ico_eguel.svg",
+            "title": "Inmobiliara Eguel",
+            "text": "RENTA Flotilla de transportes, provisionales eléctricos, andamiaje, bienes raices y plantas de energía.",
+            "card": [
+                {
+                    "img": "img/servicios/main/servicio.png",
+                    "title": "Servicios",
+                    "content": "SERVICIOS EGUEL"
+                },
+                {
+                    "img": "img/servicios/main/productos.png",
+                    "title": "Productos",
+                    "content": "PRODUCION EGUEL"
+                },
+                {
+                    "img": "img/servicios/main/cert.png",
+                    "title": "Certificación",
+                    "content": "CERT EGUEL"
+                }
+            ]
+        },
+        {   
+            "slug": "ite",
+            "logo": "img/logo/ico_ita.svg",
+            "img": "../assets/logo/icoGIT.svg",
+            "title": "Instalaciones y Técnica",
+            "text": "Instalaciónes eléctricas en industrias y comercios, edificios. Incluimos los equipos necesarios para asegurar su correcto funcionamiento y la conexión con los aparatos eléctricos correspondientes.",
+            "card": [
+                {
+                    "img": "img/servicios/main/servicio.png",
+                    "title": "Servicios",
+                    "content": "SERVICIOS ITE"
+                },
+                {
+                    "img": "img/servicios/main/productos.png",
+                    "title": "Productos",
+                    "content": "PRODUCTOS ITE"
+                },
+                {
+                    "img": "img/servicios/main/cert.png",
+                    "title": "Certificación",
+                    "content": "CER ITE"
+                }
+            ]
+        }
+    ]
+    
+}

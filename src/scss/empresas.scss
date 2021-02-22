@@ -1,0 +1,41 @@
+/* Empresas Section */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.logo--background{
+    background-image: radial-gradient(#627AFF, #5DA3FC);
+    border-radius: 100%;
+    padding: 2vh;
+    height: 15vh;
+    
+}
+
+.content-empresa{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    display: grid;
+    grid-template-columns: repeat(2, 16fr);
+    justify-content: center;
+    grid-gap: 1rem;    
+}
+
+.title-empresas{
+    color: rgb(65, 65, 65);
+    font-size: larger;
+    margin: 1rem 0 1rem 0;
+}
+
+.card-container{
+    display: grid;
+    text-align: justify;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    width: 100%;
+
+    .item{
+        padding: 1rem;
+        background-color: white;
+        border-radius: 4px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        width: fit-content;
+    }
+
+}

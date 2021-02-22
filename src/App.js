@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const loading = (
+  <div className="pt-3 text-center">
+    <div className="sk-spinner sk-spinner-puls"></div>
+  </div>
+)
+
+const TheLayout = React.lazy(() => import('./Containers/TheLayout'))
+
+
+class App extends Component {
+  
+  render(){
+    return(
+      <Router>
+        <React.Suspense fallback={loading}>
+          <Switch>
+            <Route path="/" name="Home" render={(props) => <TheLayout {...props} />} />
+          </Switch>
+        </React.Suspense>
+      </Router>
+    )
+  }
+
 }
 
 export default App;

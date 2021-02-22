@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import "./assets/webfonts/scss/fontawesome.scss";
+@import "./assets/webfonts/scss/solid.scss";
+@import "./assets/webfonts/scss/brands.scss";
+
+@import "./custom.scss";
+@import "~bootstrap/scss/bootstrap";
+@import "./scss/theheader.scss";
+@import "./scss/navigation.scss";
+@import "./scss/footer.scss";
+@import "./scss/carousel.scss";
+@import "./scss/empresas.scss";
+
+
+body, html {
+	overflow-x: hidden;
+	font-family: 'Roboto Slab', serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #777;
+	font-weight: 400;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+#Productos{
+	padding: 1rem;
+	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	
+}
+
+#Empresas {
+	padding: 2rem 0;
+	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+
+}
+
+#About{
+	padding: 2rem 1rem 2rem 1rem;
+	background-image: linear-gradient(to top, #e0e7eb 0%, #e9eef1 100%);
+	
+	
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top: 2px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}

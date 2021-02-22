@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+.custom--navbar{
+	padding: 3rem;
+    height: 10vh;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;    
+}
+
+.custom--navbar--title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(41, 41, 41);
+    text-decoration: none;
+    
+}
+
+.custom--btn--hover:hover{
+    border: 0 0 0 1px solid green;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url(./assets/bg-git.jpg) center center no-repeat;
+    width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	-webkit-animation-duration: 10s;
+	animation-duration: 10s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+    padding: 15% 0 15% 0;
+    
+}
+
+// titulo del header
+.intro-text {
+    color: azure;
+    text-align: center;
+    padding: 5px;
+}
+
+.intro-text > h1 {
+	font-size: 4rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-top: 2rem;
+	margin-bottom: 10px; 
+}
+
+.linear-wipe {
+
+	text-align: center;
+	background: linear-gradient( 105.3deg,  rgb(84, 100, 221) 21.8%, rgba(77,118,221,1) 100.2% );
+	background-size: 200% auto;
+	color: #000;
+	background-clip: text;
+	// text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+	animation: shine 10s  linear infinite;
+	@keyframes shine {
+	to {
+	background-position: 200% center;
+	}
+}
+}
+
+.btn-custom {
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #5ca9fb;
+	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	padding: 14px 34px;
+	letter-spacing: 1px;
+	margin: 0;
+	font-size: 15px;
+	font-weight: 500;
+	border-radius: 25px;
+	transition: all 0.5s linear;
+	border: 0;
+    width: fit-content;
+}
+
+
+.txtd-none{
+	text-decoration: none;
+}
+
+.custom--navpills{
+	display: flex;
+	justify-content: center;
+	width: 50vh;
+	padding: 1rem;
+	background-color: #fff;
+	
+}
+
+.iframe-monday{
+	height: 1200px;
+	width: 100%;
+
+}
+
+.title-contacto{
+	text-align: center;
+	font-size: xx-large;
+	font-weight: 600;
+	
+}
+
+// stilos de titulos
+
+.title--master{
+	font-size: 2rem;
+	text-align: center;
+	font-weight: 800;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	margin-top: 2rem;
+	margin-bottom: 2rem; 
+}
+
+.title--master-black{
+	font-size: 2rem;
+	text-align: center;
+	font-weight: 800;
+	color: rgb(114, 114, 114);
+	text-transform: uppercase;
+	margin-top: 2rem;
+	margin-bottom: 2rem; 
+}
+
+.title--master-blue{
+	font-size: 2rem;
+	text-align: center;
+	font-weight: 800;
+	color: rgb(36, 71, 170);
+	text-transform: uppercase;
+	margin-top: 2rem;
+	margin-bottom: 2rem; 
+}
+
+.btn:hover{
+	background-color: rgba(134, 180, 218, 0.521);
+	color: white;
+}

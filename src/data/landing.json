@@ -1,0 +1,12 @@
+{
+    "Header": {
+        "title": "Grupo Intecsa",
+        "paragraph": "TRANSFORMAMOS LA ENERGÍA EN LUZ...Y LA LUZ EN ENERGÍA TAMBIÉN.",
+        "nav": [
+            { "slug": "ite", "tilte": "Instalaciones y Tecnica", "more": ["Servicios", "Certificaciónes"] },
+            { "slug": "ita", "tilte": "Instalaciones Tecnologicas Aplicadas", "more": ["Productos", "Servicios", "Certificaciónes"] },
+            { "slug": "cana", "tilte": "Canalización y Soporteria", "more": ["Productos", "Servicios", "Certificaciónes"] },
+            { "slug": "eguel", "tilte": "Eguel", "more": ["Productos", "Servicios"] }
+        ]
+    }
+}
