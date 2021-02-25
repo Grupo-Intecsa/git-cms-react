@@ -72,7 +72,7 @@ const Landing = () => {
                     <GitCarrousel slide={ currentSlide.slide } />
                 </div>
             </div>
-                <a href="https://practical-turing-793a2f.netlify.app/" target="_blanck" className="txtd-none">
+                <a href="https://practical-turing-793a2f.netlify.app/" target="_blank" className="txtd-none" rel="noreferrer">
                     <p className="card-button mt-0">Conozca nuestro catálogo de productos en línea.</p>
                 </a>
         </Fragment>

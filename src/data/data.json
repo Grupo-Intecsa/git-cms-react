@@ -6,18 +6,27 @@
 
     },
     "About": {
-        "paragraph": "Es un conjunto de empresas especializadas en el campo de la construcción en el área de ingeniería eléctrica. Contamos con el equipo humano y tecnológico capaz de ofrecer a nuestros clientes: atención directa, respuesta inmediata y conocimiento integral de todos los aspectos relacionados con su proyecto.",
-        "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+        "paragraph": "Instalaciones Tecnológicas Aplicadas S. A. de C. V. parte de GRUPO INTECSA, es una empresa dedicada a la instalación, planeación, construcción y mantenimiento de Centros comerciales y tiendas departamentales especializada en proyectos electromecánicos cuyos servicios se extienden a todo el mercado nacional.",
+        "Cert": [
+            [ "Lorem ipsum dolor","Tempor incididunt","Tempor incididunt","Tempor incididunt"]
         ],
-        "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
+        "Premios": [
+            "[Premio Empresa Mexica del Año 2012, por Latin Amarican Quality Institute",
+            "México Quality Certification en el año 2012 por Latin Amarican Quality Institute.",
+            "Reconocimiento otorgado por la Asociación Internacional de Mercadotecnia, S. C.", "'Estrella de Oro' Al Mérito Empresarial, en mayo del 2005",
+            "Reconocimiento  otorgado por la Asociación Internacional de Mercadotecnia S. C.",
+            "'Medalla de Oro' a la Calidad y Servicio, en junio del 2005.",
+            "Reconocimiento otorgado por el Trade Leaders Club New Millennium Award.",
+            "Trofeo otorgado por la Editorial Office “XXXII Trofeo Internacional al Prestigio Comercial”, en noviembre del 2002.",
+            "Trofeo internacional al prestigio comercial, reconocimiento otorgado por el Trade Leaders’ Club, New Millennium Award"
+        ],
+        "Trabajos": [
+            "Premio Empresa Mexica del Año 2012, por Latin Amarican Quality Institute.",
+            "México Quality Certification en el año 2012 por Latin Amarican Quality Institute.",
+            "Reconocimiento otorgado por la Asociación Internacional de Mercadotecnia, S. C.",
+            "“Estrella de Oro” Al Mérito Empresarial, en mayo del 2005",
+            "Reconocimiento otorgado por la Asociación Internacional de Mercadotecnia, S. C.",
+            "“Medalla de Oro” a la Calidad y Servicio, en junio del 2005."
         ]
     },
     "Carrousel": {
@@ -138,8 +147,8 @@
             ]
         },
         {   
+            "logo": "img/logo/tecnica.svg",
             "slug": "ite",
-            "logo": "img/logo/ico_ita.svg",
             "img": "../assets/logo/icoGIT.svg",
             "title": "Instalaciones y Técnica",
             "text": "Instalaciónes eléctricas en industrias y comercios, edificios. Incluimos los equipos necesarios para asegurar su correcto funcionamiento y la conexión con los aparatos eléctricos correspondientes.",

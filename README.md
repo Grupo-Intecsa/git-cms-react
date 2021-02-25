@@ -11,10 +11,11 @@ In the project directory, you can run:
 TODO 
 
 1.- revisar iconos de facebook 
-2.- Poner boton reposivo
+2.- Poner boton reposivo en el navbar
 3.- Separar la navbar
 4.- separar el banner
 5.- Factorizar y terminar Quienes somos. 
+6.- Quitarle el pading de footer
 
 
 Usar control snap para el grid 
