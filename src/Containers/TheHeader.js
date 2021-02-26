@@ -17,11 +17,11 @@ const TheHeader = ({ data, modal }) => {
     return (
     <div>
     <nav className="navbar navbar-light bg-silver custom--navbar">
-    <div className="container-fluid d-flex justify-content-center justify-content-arround">
-    <FontAwesomeIcon icon={faBars} size="1x" className="menu--hiden--slide d-block d-sm-none" onClick={toogle} /> 
+    <div className="container-fluid d-flex justify-content-arround">
     <a className="navbar-brand ms-2" href="/">
     <img src={logo} alt="" className="align-top logo-nav"/>
     </a>
+    <FontAwesomeIcon icon={faBars} size="4x" className="menu--hiden--slide d-block d-sm-none" onClick={toogle} /> 
     
     {/*  */}
     <div className="col-8 d-none d-lg-block nav--item">

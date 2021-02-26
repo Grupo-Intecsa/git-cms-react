@@ -14,7 +14,6 @@ const SlideMenu = ({ modal }) => {
         }
     }
 
-
     return(
         <Fragment>
         { slide && (
@@ -27,7 +26,7 @@ const SlideMenu = ({ modal }) => {
                             className="btn btn-hover"
                             onClick={toogle}
                             >
-                            <p className="nav--item"><FontAwesomeIcon className="slide-icon" icon={faBuilding}/>{" "}Empresas</p>
+                            <p className="element-link"><FontAwesomeIcon className="slide-icon" icon={faBuilding}/>{" "}Empresas</p>
                         </Link>
                     </li>
                     
@@ -37,7 +36,7 @@ const SlideMenu = ({ modal }) => {
                             className="btn btn-hover ms-1"
                             onClick={toogle}
                             >
-                            <p className="nav--item"><FontAwesomeIcon className="slide-icon" icon={faAddressCard}/>{" "}¿Quiénes Somos?</p>
+                            <p className="element-link"><FontAwesomeIcon className="slide-icon" icon={faAddressCard}/>{" "}¿Quiénes Somos?</p>
                         </Link>
                     </li>
 
@@ -47,7 +46,7 @@ const SlideMenu = ({ modal }) => {
                             className="btn btn-hover ms-1"
                             onClick={toogle}
                             >
-                            <p className="nav--item"><FontAwesomeIcon className="slide-icon" icon={faBoxOpen}/>{" "}Productos y Servicios</p>
+                            <p className="element-link"><FontAwesomeIcon className="slide-icon" icon={faBoxOpen}/>{" "}Productos y Servicios</p>
                         </Link>
                     </li>
 
@@ -57,7 +56,7 @@ const SlideMenu = ({ modal }) => {
                             className="btn btn-hover ms-1"
                             onClick={toogle}
                             >                     
-                            <p className="nav--item"><FontAwesomeIcon className="slide-icon" icon={faPhone}/>{" "}Contacto</p>
+                            <p className="element-link"><FontAwesomeIcon className="slide-icon" icon={faPhone}/>{" "}Contacto</p>
                         </Link>
                     </li>
 

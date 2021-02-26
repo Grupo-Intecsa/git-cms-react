@@ -43,11 +43,11 @@
 
 .menu-slide > ul > li{
     list-style: none;
+    
 }
 
-.menu-slide ul > li > p {
-    padding-left: 1rem;
-    background-color: yellow;
+.element-link{
+    font-size: small;
 }
 
 .slide-icon{
@@ -56,5 +56,6 @@
 
 .menu--hiden--slide{
     color: #357CB9;
+    padding: 0.2em;
     
 }
