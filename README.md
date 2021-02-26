@@ -16,6 +16,7 @@ TODO
 4.- separar el banner
 5.- Factorizar y terminar Quienes somos. 
 6.- Quitarle el pading de footer
+7.- Agreagar en el manifiesto los iconos de la pagina 
 
 
 Usar control snap para el grid 

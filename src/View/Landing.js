@@ -41,7 +41,6 @@ const Landing = () => {
 
     }, [ iterador ])
 
-    console.log(currentSlide)
 
     return(
         <Fragment>
@@ -57,13 +56,13 @@ const Landing = () => {
                         <hr />
                         <div className="custom--carousel-title">
                             <button className="btn--carousel--select" onClick={handledMinusClic}>
-                            <i class="fas fa-arrow-alt-circle-left"></i>
+                            <i className="fas fa-arrow-alt-circle-left"></i>
                             </button>                    
             
                             <div>{currentSlide.slide.map(item => item.title )}</div>
             
                             <button className="btn--carousel--select" onClick={handlePushClic}>
-                                <i class="fas fa-arrow-alt-circle-right"></i>
+                                <i className="fas fa-arrow-alt-circle-right"></i>
                             </button>
                         </div>
                         

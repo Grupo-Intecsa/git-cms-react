@@ -18,7 +18,6 @@ class App extends Component {
         <React.Suspense fallback={loading}>
           <Switch>
             <Route path="/" name="Home" render={(props) => <TheLayout {...props} />} />
-            <Redirect from="*" to="/" />
           </Switch>
         </React.Suspense>
       </Router>

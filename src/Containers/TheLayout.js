@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {
     Content,
     TheFooter,
@@ -11,11 +11,14 @@ import infoJSON from '../data/data.json'
 
 
 const TheLayout = (props) =>{
+
+    const [ slide, setSlide ] = useState(false)
+    
     return(
         <div className="c-app c-default-layout">
-                <SlideMenu { ...props } />
+                <SlideMenu { ...props } modal={{ slide, setSlide }} />
             <div className="c-wrapper">
-                <TheHeader data={data.Header} />
+                <TheHeader data={data.Header} modal={{ slide, setSlide }} />
 
                 <div className="c-body">
                 <Content { ...props } />
