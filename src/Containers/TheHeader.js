@@ -21,7 +21,7 @@ const TheHeader = ({ data, modal }) => {
     <a className="navbar-brand ms-2" href="/">
     <img src={logo} alt="" className="align-top logo-nav"/>
     </a>
-    <FontAwesomeIcon icon={faBars} size="4x" className="menu--hiden--slide d-block d-sm-none" onClick={toogle} /> 
+    <FontAwesomeIcon icon={faBars} size="4x" className="menu--hiden--slide d-block d-sm-block d-lg-none" onClick={toogle} /> 
     
     {/*  */}
     <div className="col-8 d-none d-lg-block nav--item">
@@ -38,7 +38,7 @@ const TheHeader = ({ data, modal }) => {
         <div className="w-100"></div>
         <h1 className="linear-wipe mb-3">Intecsa</h1>
         <p className="p-3" >{paragraph}</p>
-        <a href="https://practical-turing-793a2f.netlify.app/" target="_blanck"  className="btn"><p className="btn-custom">Nuestros Productos</p></a>
+        <a href="https://itamx.com" target="_blanck"  className="btn"><p className="btn-custom">Nuestros Productos</p></a>
     </div>
     </div>
 
