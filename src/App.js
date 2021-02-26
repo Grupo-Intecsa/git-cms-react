@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom'
 
 const loading = (
   <div className="pt-3 text-center">
@@ -18,6 +18,7 @@ class App extends Component {
         <React.Suspense fallback={loading}>
           <Switch>
             <Route path="/" name="Home" render={(props) => <TheLayout {...props} />} />
+            <Redirect from="*" to="/" />
           </Switch>
         </React.Suspense>
       </Router>

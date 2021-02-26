@@ -2,7 +2,8 @@ import React from 'react'
 import {
     Content,
     TheFooter,
-    TheHeader
+    TheHeader,
+    SlideMenu
 } from './index'
 
 import data from '../data/landing.json'
@@ -12,15 +13,15 @@ import infoJSON from '../data/data.json'
 const TheLayout = (props) =>{
     return(
         <div className="c-app c-default-layout">
-
+                <SlideMenu { ...props } />
             <div className="c-wrapper">
                 <TheHeader data={data.Header} />
 
                 <div className="c-body">
-                <Content {...props} />
+                <Content { ...props } />
                 </div>
 
-                <TheFooter data={infoJSON.Footer}  />
+                <TheFooter data={ infoJSON.Footer }  />
             </div>
         </div>
     )
